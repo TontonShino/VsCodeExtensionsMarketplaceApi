@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VsExtensionsMarketplace</name>
+    </assembly>
+    <members>
+        <member name="M:VsExtensionsMarketplace.Controllers.ExtensionController.Get(System.String)">
+            <summary>
+            Search for an extension simplified
+            </summary>
+            <param name="id">Id of the extension (idPublisher.extension-name-desc)</param>
+            <returns>informations of an extension (simplified)</returns>
+        </member>
+        <member name="M:VsExtensionsMarketplace.Controllers.ExtensionRawController.Get(System.String)">
+             <summary>
+            Search for an extension details
+             </summary>
+             <param name="id">Id of the extension (idPublisher.extension-name-desc)</param>
+             <returns>Raw informations of an extension</returns>
+        </member>
+        <member name="M:VsExtensionsMarketplace.Controllers.PublisherRawController.Get(System.String)">
+            <summary>
+            Search of all extensions by publisher.
+            </summary>
+            <param name="id">The human id of publisher (ex: microsoft)</param>
+            <returns>Return all extensions published by the concerned publisher.</returns>
+        </member>
+    </members>
+</doc>
